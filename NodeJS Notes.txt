@@ -1,0 +1,20 @@
+Node JS server side Code:
+Browser
+Module:
+Core Module 
+	By default node Installed
+	example: http,fs, etc
+Local Module
+	Create own module
+	example: Database Conneciton 
+third Party Module 
+	Library
+		Expresss JS.React, No
+
+
+Create Server:
+var http=require('http') //http is a core module
+http.createServer((req, res)=>{
+    res.end("<h1>Hello server<h1/>")
+}).listen(4000)
+console.log("server is started http://127.0.0.1.4000");
