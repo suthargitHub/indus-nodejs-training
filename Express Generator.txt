@@ -1,0 +1,26 @@
+Express Generator:
+
+1.Download Package
+>npm i express-generator -g
+
+2.Create New Project
+>express --view=ejs myexpapp
+
+3.Download packages
+>npm install
+
+4.Open Project in VS code
+>code .
+
+5.Run Project in VS code Terminal
+>npm start
+or
+nodemon
+
+6.Open project in http://127.0.0.1:3000 (browser) 
+
+For create new Project
+npx create-react-app myreactindusapp
+cd myreactindusapp
+npm i web vitals
+npm start
